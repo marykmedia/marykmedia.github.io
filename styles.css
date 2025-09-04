@@ -132,8 +132,7 @@
 .header-logo {
 	height: 112px;
 	margin-right: 1rem;
-	border-radius: 8px;
-	box-shadow: 0 4px 16px rgba(0,119,255,0.10);
+	
 }
 
 /* Center navigation links */
