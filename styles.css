@@ -212,3 +212,65 @@ a:hover {
     color: #ffffff;
     font-size: 0.9rem;
 }
+
+/* Tablets & smaller */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .header-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .header-icons img {
+    height: 48px; /* smaller social icons */
+  }
+
+  #hero h2 {
+    font-size: 1.5rem;
+  }
+
+  #hero p {
+    font-size: 1rem;
+    padding: 0 1rem;
+    text-align: center;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .header-logo {
+    height: 60px; /* smaller logo */
+  }
+
+  header h1 {
+    font-size: 1rem;
+  }
+
+  #hero h2 {
+    font-size: 1.25rem;
+  }
+
+  #hero p {
+    font-size: 0.9rem;
+  }
+
+  .software-logos img {
+    height: 36px; /* smaller software icons */
+  }
+
+  form input,
+  form textarea,
+  form button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
